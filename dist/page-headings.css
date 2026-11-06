@@ -1,0 +1,18 @@
+/* A shared, stacked heading rhythm across the portfolio. */
+.page-heading{display:block;text-align:left}
+.page-heading h1,.research-page .page-heading h1,.camera-intro .page-heading h1{font-family:var(--serif);font-size:clamp(3rem,5.8vw,4rem);font-weight:500;line-height:1.08;letter-spacing:-.04em;margin:0 0 18px}
+.page-heading>p,.research-page .page-heading .research-lead{font-size:1.125rem;line-height:1.65;max-width:65ch;margin:0 0 24px}
+.page-heading .jump-links,.page-heading .research-jumps,.page-heading .hero-actions{margin-top:0}
+.research-page .research-overview{padding:40px 0 32px}
+.research-page .research-overview-copy{display:block}
+.research-page .research-overview-copy .research-jumps{margin-top:0}
+.home-hero .page-heading h1{font-size:clamp(2rem,13.8cqw,4rem);white-space:nowrap;line-height:1.08;margin:0 0 18px}
+.home-hero .page-heading>.eyebrow{margin:0 0 16px}
+.research-page .lab-study-layout{display:block}
+.research-page .lab-study-copy{max-width:78ch}
+.research-page .lab-study-question{max-width:none}
+.research-page .lab-publication .publication-title{font-family:var(--sans);font-size:1rem;font-weight:600;line-height:1.5;margin:0 0 10px}
+.research-page .research-gait{padding:18px 22px}
+.research-page .research-gait h3{font-size:1.6rem;margin:0 0 8px}
+.research-page .research-gait p{max-width:none;font-size:1rem;line-height:1.6;margin:0}
+@media(max-width:700px){.research-page .research-overview{padding:30px 0 26px}.research-page .research-gait{padding:16px 18px}}

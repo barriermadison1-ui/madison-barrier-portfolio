@@ -1,0 +1,111 @@
+/* Keep the content aligned to the same generous page boundary. */
+.research-page main,.projects-page main{width:100%;max-width:1240px;margin-inline:auto;padding-inline:40px;text-align:left}
+.research-page #lab .lab-study-layout{display:block;width:100%;padding-bottom:24px}
+.research-page #lab .lab-study-copy{max-width:none;width:100%}
+.research-page #lab .lab-study-question{max-width:none}
+.research-page #lab .lab-study-copy>p:last-child{max-width:none}
+.research-page .research-section{padding:0;border-top:0}
+.research-page .research-section+.research-section{border-top:2px solid #bba278;margin-top:44px;padding-top:40px}
+.research-page #lab .research-case-header,.research-page #ai .research-case-header{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(230px,1fr);gap:26px;align-items:center;padding:26px 28px;background:#344432;color:#f9f6eb;border-radius:12px;border-top:4px solid #bba278;margin-bottom:28px}
+.research-page #lab .research-case-header h2,.research-page #ai .research-case-header h2{font-size:2.25rem;line-height:1.15;margin:12px 0 0;color:#f9f6eb}
+.research-page .research-case-header .eyebrow{color:#f0d7a7;font-size:.8rem;letter-spacing:.075em}
+.research-page .research-case-meta{border-left:1px solid #91a087;padding-left:24px}
+.research-page .research-case-meta strong,.research-page .research-case-meta .research-role>span{display:block}
+.research-page #ai .research-case-header p{color:#f9f6eb;font-size:.95rem;margin:0;line-height:1.6}
+.research-page #ai .research-case-header .research-date{margin-top:8px}
+.research-page .research-block p{max-width:none}
+/* Consistent section links. */
+.projects-page .page-heading .jump-links{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 0}
+.projects-page .page-heading .jump-links a{display:inline-flex;align-items:center;gap:18px;min-height:48px;padding:12px 18px;background:#e4e8db;border:1px solid #a9b19b;border-radius:8px;text-decoration:none;color:#303b2c;font-size:1rem}
+.projects-page .page-heading .jump-links a:after{content:'↓';color:#85412d}
+.projects-page .page-heading .jump-links a:last-child:after{content:'↗'}
+.projects-page .page-heading .jump-links a:hover{background:#d8dfcd}
+/* The application and its important behaviors read together. */
+.projects-page .planner-showcase{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:28px;align-items:start;margin:26px 0 30px}
+.projects-page .planner-demo{min-width:0}
+.projects-page .planner-demo .media-player{width:100%;max-width:none;margin:0 0 10px}
+.projects-page .planner-demo video{display:block;width:100%;height:auto;border-radius:8px}
+.projects-page .planner-demo .video-caption{font-size:.9rem;line-height:1.5;margin:0;color:#495043}
+.projects-page .planner-features{margin:0}
+.projects-page .planner-features h3{font-size:1.6rem;margin:0 0 12px}
+.projects-page .planner-features ul{display:block}
+.projects-page .planner-features li{border:0;border-bottom:1px solid #c8cbbd;background:transparent;border-radius:0;padding:10px 0;font-size:.95rem;line-height:1.5}
+.projects-page .planner-features li:first-child{padding-top:0}
+.projects-page .planner-features li strong{margin:0 0 3px}
+.projects-page .planner-architecture>p{max-width:none}
+.projects-page .case-content>p{max-width:none}
+.projects-page .outreach-showcase{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(250px,.8fr);gap:34px;align-items:start}
+.projects-page .outreach-showcase .project-summary{font-size:1.0625rem;line-height:1.65;margin:0 0 20px}
+.projects-page .outreach-contributions{display:grid;gap:0}
+.projects-page .outreach-contributions section{border-top:1px solid #c8c3b1;padding:16px 0}
+.projects-page .outreach-contributions h3{font-family:var(--sans);font-size:1.05rem;font-weight:600;margin:0 0 7px}
+.projects-page .outreach-contributions p{font-size:1rem;line-height:1.6;margin:0}
+.projects-page .outreach-artifact{width:100%;max-width:320px;margin:0;justify-self:end}
+.projects-page .outreach-artifact img{width:100%;height:auto;max-height:none;object-fit:contain}
+.projects-page .outreach-artifact figcaption{font-size:.85rem;line-height:1.5;margin-top:8px}
+.projects-page #community .resource-row{display:flex;flex-wrap:wrap;gap:8px 24px;border-top:1px solid #c8c3b1;margin-top:20px;padding-top:12px}
+.projects-page .python-overview{display:grid;grid-template-columns:1.5fr 1fr;gap:30px;align-items:center;margin-bottom:24px}
+.projects-page .python-overview h3{margin-bottom:12px}
+.projects-page .python-overview p,.projects-page .python-approaches p{font-size:1rem;line-height:1.65;margin:0}
+.dice-visual{display:flex;justify-content:center;gap:8px;color:#344432}
+.dice-visual span{font-family:serif;font-size:3.8rem;line-height:1;background:#eeedde;border-radius:8px;padding:5px}
+.projects-page .python-approaches{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.projects-page .python-approaches section{padding:22px;background:#e7e9dd;border:1px solid #bcc3af;border-radius:8px}
+.projects-page .python-approaches .eyebrow{font-size:.78rem;color:#85412d}
+.projects-page .python-approaches h3{font-size:1.65rem;margin:10px 0 12px}
+.projects-page .case-content>.python-takeaway{margin:18px 0 0;font-size:.95rem}
+/* Production photos support the story without taking over the page. */
+#theatre .production-overview{display:grid;grid-template-columns:minmax(220px,.9fr) minmax(0,1.3fr);gap:34px;align-items:center;margin:0 0 24px}
+#theatre .poster-feature{width:100%;max-width:310px;justify-self:start;margin:0}
+#theatre .poster-feature img{display:block;width:100%;height:auto;max-height:470px;object-fit:contain;object-position:left center}
+#theatre .production-heading h3{font-size:2rem;line-height:1.2;margin:0 0 12px}
+#theatre .production-heading p{font-size:1rem;line-height:1.65}
+#theatre .production-scenes.show-carousel{width:100%;max-width:620px;margin:0;display:block}
+.show-slides{display:grid;background:#e8e5da;border-radius:8px;overflow:hidden}
+.show-slide{grid-area:1/1;margin:0}
+.show-slide[hidden]{display:none}
+#theatre .show-slide img{width:100%;height:auto;aspect-ratio:1.5;object-fit:contain;display:block;border-radius:0}
+.carousel-controls{display:flex;align-items:center;gap:12px;margin-top:10px;font-size:.9rem}
+.carousel-controls button{min-height:44px;min-width:44px;border:1px solid #a9b19b;border-radius:6px;background:#e4e8db;color:#303b2c;padding:8px 12px;font:inherit;cursor:pointer}
+.carousel-controls button:last-child{margin-left:auto}
+.carousel-controls button:focus-visible{outline:3px solid #85412d;outline-offset:3px}
+#theatre .review-excerpt{max-width:620px;margin:20px 0 0;padding:12px 18px}
+#theatre .review-excerpt p{font-size:1.25rem}
+#theatre .romeo-feature .romeo-annotated{width:100%;max-width:720px;margin:0}
+#theatre .romeo-annotated img{width:100%;height:auto;margin:0}
+#photography .case-content>.photography-intro{max-width:none;margin-bottom:22px}
+.balanced-stories{align-items:stretch}
+.balanced-stories section{display:flex;flex-direction:column;gap:20px;min-width:0}
+.balanced-stories .hobby-copy{min-height:0}
+.balanced-stories .scrapbook-story img,.balanced-stories .yoga-story img{display:block;width:100%;height:420px;aspect-ratio:auto;max-height:none;object-fit:contain;object-position:left bottom;margin-top:auto}
+/* Intro and education occupy one column next to the portrait. */
+.home-hero{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);grid-template-areas:'intro portrait' 'education portrait';gap:24px 34px;align-items:stretch;padding:42px 35px;max-width:1240px}
+.home-hero>.hero-heading{grid-area:intro;align-self:start}
+.home-hero>.wide-portrait{grid-area:portrait;margin:0;width:100%;align-self:stretch}
+.home-hero>.wide-portrait img{width:100%;height:100%;min-height:0;object-fit:cover;object-position:center;transform:none!important}
+.home-hero>.home-education{grid-area:education;align-self:end;width:100%;max-width:none;margin:0;padding:16px 18px;display:block;border-radius:4px 26px 4px 4px}
+.home-hero .education-course{display:block}
+.home-hero .home-education h2{font-size:1.65rem;margin:0 0 5px}
+.home-hero .home-education p{margin:0;font-size:.9rem;line-height:1.5}
+.home-hero .education-course p>span{display:block}
+.home-hero .home-education .education-date{border:0;padding:0;margin:8px 0 0;max-width:none;font-size:.85rem}
+.project-grid .work-preview{height:auto;aspect-ratio:16/10;padding:0!important;position:relative;display:block;border:1px solid #c9c5b5;background:#e4e6db;border-radius:14px;overflow:hidden}
+.project-grid .work-preview:before,.project-grid .work-preview:after{display:none}
+.project-grid .work-preview img{display:block;width:100%;height:100%;object-fit:cover;transform:none}
+.project-grid .work-preview.artifact img{object-fit:contain;padding:16px;background:#e4e6db}
+.project-grid .project-card{margin-top:0;transform:none}
+.project-grid{align-items:start;gap:32px}
+.home-theatre{display:grid;grid-template-columns:1.05fr 1fr 1fr;gap:24px;align-items:start;padding:32px;max-width:1240px;margin:32px auto;border-radius:24px 0 0 0}
+.home-theatre>div{grid-row:auto;padding:0}
+.home-theatre h2{font-size:2.5rem;line-height:1.1;margin:0 0 14px}
+.home-theatre p{font-size:1rem;line-height:1.65;margin:0 0 14px}
+.home-theatre figure{margin:0}
+.home-theatre figure img{width:100%;height:auto;border-radius:8px}
+.home-theatre:after{display:none}
+@media(max-width:1000px){.home-theatre{grid-template-columns:1fr 1fr}.home-theatre>div{grid-column:1/-1}.home-hero{padding-inline:6%}.projects-page .planner-showcase{grid-template-columns:1fr 1fr;gap:22px}.projects-page .outreach-showcase{grid-template-columns:1.5fr 1fr;gap:24px}.dice-visual{gap:3px}.dice-visual span{font-size:2.7rem}}
+@media(max-width:700px){.research-page main,.projects-page main{padding-inline:6%}.research-page #lab .research-case-header,.research-page #ai .research-case-header{display:block;padding:22px}.research-page #lab .research-case-header h2,.research-page #ai .research-case-header h2{font-size:2rem}.research-page .research-case-meta{border-left:0;border-top:1px solid #91a087;padding:16px 0 0;margin-top:18px}.research-page .research-section+.research-section{margin-top:30px;padding-top:30px}.projects-page .planner-showcase,.projects-page .outreach-showcase,.projects-page .python-overview,.projects-page .python-approaches{grid-template-columns:1fr}.projects-page .outreach-artifact{justify-self:start;max-width:300px}.projects-page .planner-features h3{font-size:1.5rem}.projects-page .python-overview{gap:16px}.dice-visual{justify-content:flex-start}.dice-visual span{font-size:3.2rem}#theatre .production-overview{grid-template-columns:1fr;gap:20px}#theatre .poster-feature{max-width:260px}#theatre .production-heading h3{font-size:1.8rem}.balanced-stories .scrapbook-story img,.balanced-stories .yoga-story img{height:auto;max-height:none;margin-top:0}.home-hero{grid-template-columns:1fr;grid-template-areas:'intro' 'portrait' 'education';gap:24px;padding:30px 6%}.home-hero>.wide-portrait img{height:auto;object-fit:contain}.home-theatre{grid-template-columns:1fr;padding:24px 6%;margin:24px auto}.home-theatre>div{grid-column:auto}.project-grid .work-preview{aspect-ratio:16/10}}
+@media(min-width:1001px){.home-hero{padding-inline:0}}
+.project-grid.row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin:0}
+.project-grid.row>.project-card{width:100%;max-width:none;flex:none;padding:0;margin:0}
+.selected .section-head{margin-bottom:24px}
+@media(max-width:700px){.project-grid.row{grid-template-columns:1fr;gap:28px}}
