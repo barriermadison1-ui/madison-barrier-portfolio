@@ -2,9 +2,15 @@
 
 A personal portfolio showcasing psychology research, computer science projects, community arts, theatre, and photography.
 
+## Live website
+
+https://barriermadison1-ui.github.io/madison-barrier-portfolio/
+
+Changes committed to `main` are automatically built and published by `.github/workflows/pages.yml`. The workflow runs `build-pages.mjs`, which regenerates the pages and adjusts links for the GitHub project address.
+
 ## Preview locally
 
-The ready-to-view website is in `dist/`. From this repository, run:
+The website is in `dist/`. Regenerate it with `node pages.mjs` before previewing at the domain root. From this repository, run:
 
 ```sh
 python3 -m http.server 8080 --directory dist
